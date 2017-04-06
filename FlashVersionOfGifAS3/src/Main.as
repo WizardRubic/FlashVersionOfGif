@@ -9,7 +9,7 @@ package
 	 * ...
 	 * @author Kevin Jung
 	 */
-	[SWF(backgroundColor = "#000000", width = "600", height = "100", frameRate = "42")]
+	[SWF(backgroundColor = "#000000", width = "600", height = "400", frameRate = "42")]
 	public class Main extends Sprite 
 	{
 		
@@ -32,7 +32,7 @@ package
 			//class to hold embed stuff:
 			//http://stackoverflow.com/questions/14549136/as3-embed-images-class-and-then-get-these-images-into-another-class
 			
-			addEventListener(Event.ENTER_FRAME, update);
+/*			addEventListener(Event.ENTER_FRAME, update);
 			var index:int = 0;
 			var current: Bitmap;
 			function update(e:Event):void
@@ -51,6 +51,11 @@ package
 				}
 				addChild(current); 
 			}
+			*/
+			
+			// gen single frame:
+			addChild(new Bitmap(frames.test)); 
+			
 		}
 		
 	}
