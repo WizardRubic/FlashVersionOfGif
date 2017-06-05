@@ -1,0 +1,61 @@
+
+
+Insert following Into the frames.as
+
+[Embed (source="/assets/frames/0000.png")]
+private static var 0000.png:Class;
+[Embed (source="/assets/frames/0001.png")]
+private static var 0001.png:Class;
+[Embed (source="/assets/frames/0002.png")]
+private static var 0002.png:Class;
+[Embed (source="/assets/frames/0003.png")]
+private static var 0003.png:Class;
+[Embed (source="/assets/frames/0004.png")]
+private static var 0004.png:Class;
+[Embed (source="/assets/frames/0005.png")]
+private static var 0005.png:Class;
+[Embed (source="/assets/frames/0006.png")]
+private static var 0006.png:Class;
+[Embed (source="/assets/frames/0007.png")]
+private static var 0007.png:Class;
+[Embed (source="/assets/frames/0008.png")]
+private static var 0008.png:Class;
+[Embed (source="/assets/frames/0009.png")]
+private static var 0009.png:Class;
+[Embed (source="/assets/frames/0010.png")]
+private static var 0010.png:Class;
+[Embed (source="/assets/frames/0011.png")]
+private static var 0011.png:Class;
+[Embed (source="/assets/frames/0012.png")]
+private static var 0012.png:Class;
+[Embed (source="/assets/frames/0000.png")]
+private static var 0000.png:Class;
+[Embed (source="/assets/frames/0001.png")]
+private static var 0001.png:Class;
+[Embed (source="/assets/frames/0002.png")]
+private static var 0002.png:Class;
+[Embed (source="/assets/frames/0003.png")]
+private static var 0003.png:Class;
+[Embed (source="/assets/frames/0004.png")]
+private static var 0004.png:Class;
+[Embed (source="/assets/frames/0005.png")]
+private static var 0005.png:Class;
+[Embed (source="/assets/frames/0006.png")]
+private static var 0006.png:Class;
+[Embed (source="/assets/frames/0007.png")]
+private static var 0007.png:Class;
+[Embed (source="/assets/frames/0008.png")]
+private static var 0008.png:Class;
+[Embed (source="/assets/frames/0009.png")]
+private static var 0009.png:Class;
+[Embed (source="/assets/frames/0010.png")]
+private static var 0010.png:Class;
+[Embed (source="/assets/frames/0011.png")]
+private static var 0011.png:Class;
+[Embed (source="/assets/frames/0012.png")]
+private static var 0012.png:Class;
+
+
+Insert following Into the array
+
+var frameArray:Array = [new Bitmap(frames.0000), new Bitmap(frames.0001), new Bitmap(frames.0002), new Bitmap(frames.0003), new Bitmap(frames.0004), new Bitmap(frames.0005), new Bitmap(frames.0006), new Bitmap(frames.0007), new Bitmap(frames.0008), new Bitmap(frames.0009), new Bitmap(frames.0010), new Bitmap(frames.0011), new Bitmap(frames.0012)];

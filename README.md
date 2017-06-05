@@ -1,6 +1,7 @@
 # FlashVersionOfGif
 FlashVersionOfGif will allow the conversion of frames to swf  
 
+
 #TODO
 Gen embed file  
 Makefile  
